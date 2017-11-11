@@ -7,7 +7,7 @@
     <meta name="author" content="Coderthemes">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('images/fav.ico') }}">
     <!-- App title -->
     <title>{{ config('app.name', 'Laravel') }}</title>
 

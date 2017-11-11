@@ -6,7 +6,7 @@
             <div class="user-details">
                 <div class="overlay"></div>
                 <div class="text-center">
-                    <img src="{{ asset('assets_backend/images/users/avatar-1.jpg') }}" alt="" class="thumb-md img-circle">
+                    <img src="{{ asset('images/03.jpg') }}" alt="" class="thumb-md img-circle">
                 </div>
                 <div class="user-info">
                     <div>

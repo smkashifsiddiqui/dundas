@@ -12,7 +12,7 @@ File: Menu
   z-index: 999;
 }
 .topbar .topbar-left {
-  background: #3ac9d6;
+  background: #FFFFFF;
   float: left;
   text-align: center;
   height: 60px;
@@ -21,7 +21,7 @@ File: Menu
   z-index: 1;
 }
 .navbar-default {
-  background-color: #3ac9d6;
+  background-color: #062F73;
   border-radius: 0;
   border: none;
   margin-bottom: 0;
@@ -140,7 +140,7 @@ body.fixed-left .side-menu.left {
 }
 .user-details {
   min-height: 80px;
-  padding-top: 15px;
+  /*padding-top: 15px;*/
   position: relative;
   background: url("../images/small/img-1.jpg");
   background-size: cover;
@@ -155,9 +155,9 @@ body.fixed-left .side-menu.left {
   z-index: 99999;
 }
 .user-details a.dropdown-toggle {
-  margin-top: 15px !important;
+  /*margin-top: 15px !important;*/
   color: #ffffff !important;
-  background-color: rgba(49, 58, 70, 0.5) !important;
+  background-color: #BA1070 !important;
   display: block;
   font-weight: 600;
   padding: 6px 15px !important;
@@ -630,4 +630,8 @@ body.fixed-left-void {
 }
 .mobile.smallscreen .sidebar-inner.slimscrollleft {
   overflow: scroll !important;
+}
+
+.img-circle {
+  border-radius: 0% !important;
 }

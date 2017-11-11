@@ -2,11 +2,11 @@
 
     <!-- LOGO -->
     <div class="topbar-left">
-        <a href="index.html" class="logo"><span>Zir<span>cos</span></span><i class="mdi mdi-cube"></i></a>
+        <!--a href="index.html" class="logo"><span>Zir<span>cos</span></span><i class="mdi mdi-cube"></i></a-->
         <!-- Image logo -->
         <!--<a href="index.html" class="logo">-->
         <!--<span>-->
-        <!--<img src="assets/images/logo.png" alt="" height="30">-->
+        <img src="{{ asset('images/logo.png') }}" alt="" height="52">
         <!--</span>-->
         <!--<i>-->
         <!--<img src="assets/images/logo_sm.png" alt="" height="28">-->
@@ -111,7 +111,7 @@
                         <li>
                             <a href="#" class="user-list-item">
                                 <div class="avatar">
-                                    <img src="{{ asset('assets_backend/images/users/avatar-2.jpg') }}" alt="">
+                                    <img src="{{ asset('images/users/avatar-2.jpg') }}" alt="">
                                 </div>
                                 <div class="user-desc">
                                     <span class="name">Patricia Beach</span>
@@ -123,7 +123,7 @@
                         <li>
                             <a href="#" class="user-list-item">
                                 <div class="avatar">
-                                    <img src="{{ asset('assets_backend/images/users/avatar-3.jpg') }}" alt="">
+                                    <img src="{{ asset('images/users/avatar-3.jpg') }}" alt="">
                                 </div>
                                 <div class="user-desc">
                                     <span class="name">Connie Lucas</span>
@@ -135,7 +135,7 @@
                         <li>
                             <a href="#" class="user-list-item">
                                 <div class="avatar">
-                                    <img src="{{ asset('assets_backend/images/users/avatar-4.jpg') }}" alt="">
+                                    <img src="{{ asset('images/users/avatar-4.jpg') }}" alt="">
                                 </div>
                                 <div class="user-desc">
                                     <span class="name">Margaret Becker</span>
@@ -158,7 +158,7 @@
 
                 <li class="dropdown user-box">
                     <a href="" class="dropdown-toggle waves-effect waves-light user-link" data-toggle="dropdown" aria-expanded="true">
-                        <img src="{{ asset('assets_backend/images/users/avatar-1.jpg') }}" alt="user-img" class="img-circle user-img">
+                        <img src="{{ asset('images/users/avatar-1.jpg') }}" alt="user-img" class="img-circle user-img">
                     </a>
 
                     <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
